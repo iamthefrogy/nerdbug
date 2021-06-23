@@ -10,6 +10,7 @@ An automation tool that downloads CHAOS project discovery data every hour compar
   + [anew](https://github.com/tomnomnom/anew)
   + [nuclei](https://github.com/projectdiscovery/nuclei)
   + [chaospy](https://github.com/ep1n3phr1n3/chaospy)
+  + [notify](https://github.com/projectdiscovery/notify)
   
   Make sure these tools are downloaded and binaries are copied in the /usr/bin folder.
   
