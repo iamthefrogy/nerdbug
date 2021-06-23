@@ -33,7 +33,7 @@ An automation tool that downloads CHAOS project discovery data every hour compar
     wget -q "https://chaos-data.projectdiscovery.io/index.json" && cat index.json | grep "URL" | sed 's/"URL": "//;s/",//' | while read host do;do wget -q "$host";done && for i in `ls -1 | grep .zip$`;  do unzip -o -qq $i; done && rm *.zip
     cat *.txt >> alltargets.txtls
     
-    2. Set the integer value within the cron.sh file. It is a number of hours you want to automate this script in the background (SCREEN).    
+    2. Set the integer value within the cron.sh file. It is a number of hours you want to automate this script in the backgroun. Currently set to 3600 seconds means an hour. (SCREEN).    
     
     3. Open nerdbug.sh and insert your telegram bot token and chat id value within the 'token' and 'chat_id' variable which is currently set as << enter API key >> and << enter chat id >>
    
