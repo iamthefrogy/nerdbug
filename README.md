@@ -1,7 +1,7 @@
 # nerdbug - Hunt while you are sleeping
 An automation tool that downloads CHAOS project discovery data every hour compares it with the master domain list, identifies new domains, runs Nuclei on it and automatically provides you with the final result via Telegram push notifications. Cron job automation is already implemented. <br/>
 
-![Automation](https://user-images.githubusercontent.com/8291014/106388959-ba9eff00-63d8-11eb-82fe-a2a04fedb740.png)
+![Automation](https://user-images.githubusercontent.com/8291014/123051721-f6734900-d3f9-11eb-846d-9721790b8951.png)
 
 + **Requirements:** Go Language, Python 3.+, jq
 + **Tools used - You must need to install these tools to use this script**<br/>
