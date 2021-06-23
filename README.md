@@ -22,9 +22,9 @@ An automation tool that downloads CHAOS project discovery data every hour compar
     apt install jq
     git clone https://github.com/iamthefrogy/nerdbug.git && cd nerdbug/ && chmod +x nerdbug.sh
     chmod +x cronjob.sh
-    
-    copy the chaos.py file in the nerdbug.sh folder.
     ```
+    Copy the chaos.py file in the nerdbug.sh folder.
+    
 + **Usage**
 
     ```sh
