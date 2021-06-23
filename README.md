@@ -19,6 +19,8 @@ An automation tool that downloads CHAOS project discovery data every hour compar
     apt install jq
     git clone https://github.com/iamthefrogy/nerdbug.git && cd nerdbug/ 
     chmod +x nerdbug.sh cron.sh && wget https://github.com/ep1n3phr1n3/chaospy/blob/master/chaospy.py
+    
+    When you install the chaospy tool, place the binary in the nerdbug folder.
     ```
     
 + **Usage**
