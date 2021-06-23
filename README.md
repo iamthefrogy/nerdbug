@@ -18,7 +18,7 @@ An automation tool that downloads CHAOS project discovery data every hour compar
     ```sh
     apt install jq
     git clone https://github.com/iamthefrogy/nerdbug.git && cd nerdbug/ 
-    chmod +x nerdbug.sh cronjob.sh && wget https://github.com/ep1n3phr1n3/chaospy/blob/master/chaospy.py
+    chmod +x nerdbug.sh cron.sh && wget https://github.com/ep1n3phr1n3/chaospy/blob/master/chaospy.py
     ```
     
 + **Usage**
