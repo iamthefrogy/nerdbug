@@ -7,11 +7,8 @@ An automation tool that downloads CHAOS project discovery data every hour compar
 + **Tools used - You must need to install these tools to use this script**<br/>
 
   + [httpx](https://github.com/projectdiscovery/httpx)
-  + [anew](https://github.com/tomnomnom/httprobe)
-  + [gospider](https://github.com/jaeles-project/gospider)
+  + [anew](https://github.com/tomnomnom/anew)
   + [nuclei](https://github.com/projectdiscovery/nuclei)
-  + [jaeles](https://github.com/jaeles-project/jaeles)
-  + [qsreplace](https://github.com/tomnomnom/qsreplace)
   + [chaospy](https://github.com/ep1n3phr1n3/chaospy)
   
   Make sure these tools are downloaded and binaries are copied in the /usr/bin folder.
