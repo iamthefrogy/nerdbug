@@ -9,7 +9,7 @@ awk 'NR==FNR{lines[$0];next} !($0 in lines)' alltargets.txtls newdomains.md >> d
 echo Hourly scan result $(date +%F-%T) | notify -telegram -telegram-api-key <<enter api key>> -telegram-chat-id <<enter chat id>>
 echo "Total $(wc -l < domains.txtls) new domains found" | notify -telegram -telegram-api-key <<enter api key>> -telegram-chat-id <<enter chat id>>
 nuclei -ut
-if [ -s /root/chaospy/domains.txtls ]
+if [ -s ~/domains.txtls ]
 then
         cat domains.txtls >> alltargets.txtls
         cat domains.txtls | httpx -fl 0 -mc 200 >> newurls.txtls
