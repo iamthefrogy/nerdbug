@@ -1,5 +1,5 @@
 # nerdbug - Hunt while you are sleeping
-An automation tool that downloads CHAOS project discovery data every hour compares it with the master domain list, identifies new domains, runs Nucleion it and automatically provides you with the final result via Telegram push notifications. Cron job automation is already implemented. <br/>
+An automation tool that downloads CHAOS project discovery data every hour compares it with the master domain list, identifies new domains, runs Nuclei on it and automatically provides you with the final result via Telegram push notifications. Cron job automation is already implemented. <br/>
 
 ![Automation](https://user-images.githubusercontent.com/8291014/106388959-ba9eff00-63d8-11eb-82fe-a2a04fedb740.png)
 
@@ -22,6 +22,8 @@ An automation tool that downloads CHAOS project discovery data every hour compar
     apt install jq
     git clone https://github.com/iamthefrogy/nerdbug.git && cd nerdbug/ && chmod +x nerdbug.sh
     chmod +x cronjob.sh
+    
+    copy the chaos.py file in the nerdbug.sh folder.
     ```
 + **Usage**
 
@@ -41,11 +43,6 @@ An automation tool that downloads CHAOS project discovery data every hour compar
    
    exit screen
     ```
-   **TODO**
-- ✅ ~~Add nuclei scanning ability~~
-- ✅ ~~Add XSS scanning ability~~
-- Add jaeles scanning ability
-    
 #### Thanks to the authors of the tools used in this script.
 
 **Warning:** This is just a research project. Kindly use it with caution and at your own risk.
