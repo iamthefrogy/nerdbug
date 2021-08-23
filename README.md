@@ -1,5 +1,5 @@
 # nerdbug - Hunt while you are sleeping
-![](https://visitor-badge.glitch.me/badge?page_id=iamthefrogy.nerdbug)<a href="https://twitter.com/iamthefrogy"> 
+![](https://visitor-badge.glitch.me/badge?page_id=iamthefrogy.nerdbug)<a href="https://twitter.com/iamthefrogy"> </a>
 
 An automation tool that downloads CHAOS project discovery data every hour compares it with the master domain list, identifies new domains, runs Nuclei on it and automatically provides you with the final result via Telegram push notifications. Cron job automation is already implemented. <br/>
 
