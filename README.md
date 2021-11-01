@@ -34,7 +34,7 @@ An automation tool that downloads CHAOS project discovery data every hour compar
     
     2. Set the integer value within the cron.sh file. It is a number of hours you want to automate this script in the background. Currently set to 3600 seconds means an hour. (SCREEN).    
     
-    3. Set up [Notify Provider Config](https://github.com/projectdiscovery/notify#provider-config) and edit the configuration to suit your needs (support multiple providers where do you want to send the notification to)
+    3. Set up and edit Notify Provider Config (default provider config file can be created at $HOME/.config/notify/provider-config.yaml) to suit your needs (support single / multiple providers where do you want to send the notification to)
     4. Open nerdbug.sh and set the provider in which is currently set as notify -provider <<provider to send the notification to (eg. telegram,discord,slack)>>
    
    screen -S nerdbug
