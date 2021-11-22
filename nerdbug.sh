@@ -15,7 +15,7 @@ if ls | grep ".zip" &> /dev/null; then
 
 	################################################################################## Update nuclei and nuclei-templates
 	nuclei -silent -update
-	nuclei -silent ut
+	nuclei -silent -ut
 	rm *.zip
 	else
 	echo "No new programs found" | notify -silent -provider telegram
