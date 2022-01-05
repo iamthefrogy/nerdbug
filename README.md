@@ -1,6 +1,8 @@
 # nerdbug - Hunt while you are sleeping
 <h4 align="left"> Made with ❤️ ❤️ ❤️ from <img src="https://user-images.githubusercontent.com/8291014/145205748-5530f102-9102-4659-a141-21872f237c57.png" alt="frogy" height=20px> </h4>
 
+![](https://visitor-badge.glitch.me/badge?page_id=iamthefrogy.nerdbug)<a href="https://twitter.com/iamthefrogy"> 
+
 An automation tool that downloads CHAOS project discovery data every hour compares it with the master domain list, identifies new domains, runs Nuclei on it and automatically provides you with the final result via [notify](https://github.com/projectdiscovery/notify) and publish it to a variety of supported platforms like Telegram, Discord, Slack, etc. Cron job automation is already implemented. <br/>
 
 ![Automation](https://user-images.githubusercontent.com/8291014/123051721-f6734900-d3f9-11eb-846d-9721790b8951.png)
